@@ -59,13 +59,7 @@ const App = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-indigo-950 to-purple-900">
       <div className="w-full max-w-96">
-        <h1
-          className="relative text-5xl font-extrabold mb-8 text-center text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 via-pink-400 to-orange-300"
-          style={{
-            WebkitTextStroke: "0.5px rgba(255,255,255,0.4)",
-            textShadow: "0 0 6px rgba(255,255,255,0.5)",
-          }}
-        >
+        <h1 className=" text-5xl font-extrabold mb-8 text-center text-white ">
           Tic Tac Toe
         </h1>
 
